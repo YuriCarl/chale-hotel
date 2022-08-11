@@ -1,0 +1,212 @@
+/** Estrutura do site **/
+
+* {  /* Formatação padrão do site */
+  margin: 0;
+  padding: 0;
+}
+
+body {   /* Cor do fundo do site */
+  font-family: Helvetica,"Trebuchet MS", sans-serif;
+  background: #fff url(../imgs/bg.png);
+  margin: 15px;
+}
+
+a {   /* Formatação padrão do link */
+  text-decoration: none;
+}
+
+ul {  /* Formatação padrão da lista */
+  list-style: none;
+}
+
+/** Formatando o container **/
+
+#container {  /* Formatação do container */
+  background: #ede9cc url(../imgs/bg-container.png) top center repeat-y;
+  margin: 0 auto;
+  min-width: 740px;
+  max-width: 1180px;
+}
+
+/** Formatando o topo **/
+
+#topo {  /* Formatação do topo */
+  position: relative;
+  background: #dbcd87;
+  height: 15.4em;
+  min-height: 250px;
+}
+
+/** Formatação da logo **/
+
+#area-logo {   /* Formatação da área da logo */
+  background: url(../imgs/topo-imagem-principal.png) no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo a {  /* Formatação da logo */
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 3;
+  background: url(../imgs/logo.png) no-repeat;
+  width: 151px;
+  height: 66px;
+  text-indent: -900px;
+}
+
+/** Formatando o menu **/
+
+#area-menu {  /* Formatação da área do menu */
+  background: url(../imgs/topo-imagem-lateral.png) no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 450px;
+  height: 250px;
+  z-index: 2;
+}
+
+#conteudo-menu {   /* Formatação do conteúdo do menu */
+ margin-left: 90px;
+ margin-right: 15px;
+ padding-top: 15px;
+
+}
+
+#menu-locais {  /* Formatação do menu de locais */
+  border-bottom: 1px solid #b5ab56;
+  border-top: 1px solid #b5ab56;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.7em;
+  color: #8b8448;
+}
+
+#menu-locais .locais {  /* Formatação do menu de locais */
+  float: left;
+  line-height: 2.1em;
+}
+
+a.reserva {  /* Formatação do link de reserva */
+  text-transform: uppercase;
+  background: #a29750;
+  color: #fff5b0;
+  padding: 5px 10px;
+  float: right;
+}
+
+/** Barra de navegação vertical **/
+
+#menu {  /* Formatação do menu */
+  margin-top: 15px;
+}
+
+ul#navegacao {  /* Formatação do menu */
+  float: left;
+  padding: 5px;
+}
+
+ul#navegacao a {  /* Formatação do menu links */
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #6e672c;
+  line-height: 30px;
+}
+
+ul#navegacao a:hover {  /* Formatação do menu ao passar o mouse */
+  background: #fdf6be;
+}
+
+.depoimento {  /* Formatação do depoimento */
+  width: 226px;
+  height: 164px;
+  float: right;
+}
+
+
+/** Area de conteúdos **/
+
+#area-principal{   /* Formatação da área de conteúdo principal */
+  float: left;
+  width: 50%;
+  background: url(../imgs/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px; 
+}
+
+#area-lateral{   /* Formatação da área de conteúdo lateral */
+  float: right;
+  width: 50%;
+  background: url(../imgs/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0px;
+}
+
+
+
+.conteudo {  /* Formatação do conteúdo */
+  margin: 0 auto;
+  width: 90%;
+}
+
+/** Formatações de textos **/
+
+h2 {  /* Formatação do título */
+  color: #7d7640;
+  font-size: 1.2em;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+p {  /* Formatação do parágrafo */
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+/** Formatações da area lateral **/
+
+#beneficios li {    /* Formatação da lista de benefícios */
+  padding: 8px;
+  border-bottom: 1px solid #f3efcb;
+  height: 6em;
+}
+
+#beneficios li a img {  /* Formatação da imagem dos benefícios */
+  float: left;
+  margin-right: 8px;
+}
+
+#beneficios li a p {  /* Formatação do parágrafo dos benefícios */
+  color: #000;
+  font-size: 0.8em;
+}
+
+#beneficios li a h3 {  /* Formatação do título dos benefícios */
+  font-size: 1.2em;
+  color: #615b2d;
+  padding: 5px 0;
+  background: url(../imgs/ornamento.png) no-repeat center right; 
+}
+
+#beneficios li:hover {  /* Formatação do benefício ao passar o mouse */
+  background: #f6f3d6;
+  cursor: pointer;
+}
+
+/** Rodapé **/
+
+#rodape {  /* Formatação do rodapé */
+  clear: both;
+  padding: 16px;
+  background: #fff url(../imgs/bgg-rodape.png) repeat-x top;
+  color: #7d7640;
+  text-align: center;
+}
+
+
+/*** Desenvolvido por Yuri C. de Oliveira ***/
